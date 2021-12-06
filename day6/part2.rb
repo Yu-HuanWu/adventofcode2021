@@ -52,4 +52,5 @@ def laternfish(fishes, days)
     hash.values.sum
 end
 
+p laternfish(input, 80)
 p laternfish(input, 256)

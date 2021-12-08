@@ -66,7 +66,6 @@ def decode(array)
     array[0].each do |code|
         if ![num1, num2, num3, num4, num5, num6, num7, num8, num9].include?(code.split("").sort) && code.length == 6
             num0=code.split("").sort
-            p 0
         end
     end
     result=[]

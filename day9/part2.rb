@@ -60,3 +60,5 @@ end
 output = basin_size(g, lowpositions(g))
 output = output.sort.uniq
 p output[-1] * output[-2] * output[-3]
+
+#thanks Alvin

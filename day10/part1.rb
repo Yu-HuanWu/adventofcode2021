@@ -46,7 +46,7 @@ g.each do |str|
         end
     end
 end
-
+p illegal.length
 points= 0
 illegal.each do |char|
     if char == ")"
